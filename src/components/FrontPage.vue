@@ -1,13 +1,13 @@
 <template>
   <div class="KZ-FrontPage">
     <header class="header">
-      <h1>头部</h1>
+      <span>头部</span>
     </header>
     <div class="contenr">
       <span>内容</span>
     </div>
     <footer class="footer">
-      <h1>脚部</h1>
+      <span>脚部</span>
     </footer>
   </div>
 </template>
@@ -24,6 +24,6 @@ export default {
 </script>
 
 <style lang="less" scoped>
-
+@import "../assets/css/FrontPage.less";
 </style>
 
