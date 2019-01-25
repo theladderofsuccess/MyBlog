@@ -11,6 +11,31 @@ export default new Router({
       path: '/',
       name: 'FrontPage',
       component: page.FrontPage
-    }
+    },
+    {
+      path: '/404',
+      name: 'NotFound',
+      component: page.NotFound
+    },
+    {
+      path: '/TechStack',
+      name: 'TechStack',
+      component: page.TechStack
+    },
+    {
+      path: '/ToolBar',
+      name: 'ToolBar',
+      component: page.ToolBar
+    },
+    {
+      path: '/Items',
+      name: 'Items',
+      component: page.Items
+    },
+    {
+      path: '/Mood',
+      name: 'Mood',
+      component: page.Mood
+    },
   ]
 })
