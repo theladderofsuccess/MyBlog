@@ -1,5 +1,5 @@
 <template>
-  <div class="KZ-FrontPage">
+  <div class="kz-FrontPage">
     <header class="header">
       <div class="logoBar">
         <img class="logo" src="../../assets/img/header.jpg" alt>
@@ -7,6 +7,7 @@
         <div class="tabs">
           <ul>
             <li v-for="(item, index) in tabs" :key="index" @click="RouteTo(item)">
+              <kz-icon :name="item.icon" size="sm"></kz-icon>
               <span>{{item.tabName}}</span>
             </li>
           </ul>
@@ -24,8 +25,12 @@
 
 <script>
 import Tabs from "./tab.js";
+import KzIcon from "../Coms/KZ-icon";
 export default {
   name: "FrontPage",
+  components: {
+    KzIcon
+  },
   data() {
     return {
       tabs: Tabs.tabs,
