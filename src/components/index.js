@@ -7,4 +7,7 @@ module.exports = {
     ToolBar: resolve => require(["./Pages/ToolBar.vue"], resolve),
     Items: resolve => require(["./Pages/Items.vue"], resolve),
     Mood: resolve => require(["./Pages/Mood.vue"], resolve),
+    //管理员视图
+    AdminLogin: resolve => require(["./admin/adminLogin.vue"], resolve),
+    DataManager: resolve => require(["./admin/dataManager.vue"], resolve),
 }

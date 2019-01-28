@@ -37,5 +37,15 @@ export default new Router({
       name: 'Mood',
       component: page.Mood
     },
+    {
+      path: '/AdminLogin',
+      name: 'AdminLogin',
+      component: page.AdminLogin
+    },
+    {
+      path: '/DataManager',
+      name: 'DataManager',
+      component: page.DataManager
+    },
   ]
 })

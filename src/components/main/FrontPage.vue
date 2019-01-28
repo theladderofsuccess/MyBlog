@@ -15,7 +15,11 @@
       </div>
     </header>
     <div class="content">
-      <span>内容</span>
+      <div class="circle"><span>层叠轮播</span></div>
+      <div class="main">
+        <div class="details"></div>
+        <div class="lists"></div>
+      </div>
     </div>
     <footer class="footer">
       <span>脚部</span>
